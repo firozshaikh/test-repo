@@ -1,0 +1,18 @@
+Product=Sonargraph,SonargraphBuild
+Licensor=hello2morrow GmbH
+Licensee=Mobiquity
+License=Architect
+Contract=EVALUATION
+Creation=2016-02-26
+Expiration=2016-03-11
+SupportExpiration=2016-03-11
+Language-Java=0
+Language-CSharp=0
+Language-CPlusPlus=0
+User=Firoz Shaikh
+Login=any
+Version=any
+MacAddresses=any
+SpecialLicenseFeatures=Architecture,DuplicateCode,Scripts,VirtualModels,Snapshots,Refactorings,Systems,Reporting,CycleBreakUp,CohesionAndCouplingMetrics,ScriptsAutomated
+
+Signature=302D0215008E6921071B59EECB20838EAF6B65A184191CC242021446CE3D1C09A08EC2FDDD17C7395B9025ACF11AF6
