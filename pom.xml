@@ -24,24 +24,24 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.hello2morrow.sonargraph</groupId>
-                <artifactId>maven-sonargraph-plugin</artifactId>
-                <version>7.2.0</version>
-                <configuration>
-                    <!-- configuration properties are described below -
-                    none is mandatory -->
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>architect-report-verify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>com.hello2morrow.sonargraph</groupId>-->
+                <!--<artifactId>maven-sonargraph-plugin</artifactId>-->
+                <!--<version>7.2.0</version>-->
+                <!--<configuration>-->
+                    <!--&lt;!&ndash; configuration properties are described below - -->
+                    <!--none is mandatory &ndash;&gt;-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>architect-report-verify</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
 </project>
