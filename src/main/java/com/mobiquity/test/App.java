@@ -15,7 +15,6 @@ public class App
     	 
         HelloWorld obj = (HelloWorld) context.getBean("helloBean");
         obj.printHello();
-
-        System.out.println("Testing simple spring hello world program.");
+        
     }
 }
