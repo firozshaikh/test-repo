@@ -1,5 +1,6 @@
 package com.mobiquity.test;
 
+import org.omg.IOP.ExceptionDetailMessage;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -12,9 +13,15 @@ public class App
     public static void main( String[] args )
     {
     	ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
-    	 
-        HelloWorld obj = (HelloWorld) context.getBean("helloBean");
-        obj.printHello();
-        
+
+        String str = null;
+
+        try {
+            HelloWorld obj = (HelloWorld) context.getBean("helloBean");
+            obj.printHello();
+        }catch (Exception e){
+            System.out.println(str.toString());
+        }
+        System.out.println(str.toString());
     }
 }
