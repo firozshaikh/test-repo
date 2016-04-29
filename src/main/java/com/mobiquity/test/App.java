@@ -14,11 +14,13 @@ public class App
     {
     	ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
 
+        String str = null;
+
         try {
             HelloWorld obj = (HelloWorld) context.getBean("helloBean");
             obj.printHello();
         }catch (Exception e){
-
+            System.out.println(str.toString());
         }
         
     }
